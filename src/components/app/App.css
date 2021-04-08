@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color: #4c2066;
+  background-color: #54197e;
   padding: 1vmin;
   display: flex;
   flex-direction: column;
@@ -13,17 +13,22 @@
   color: white;
 }
 
-.App-link {
-  color: #7e00bf;
-}
-
 .App-content {
   display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-.TweetEmbed {
-  flex-shrink: 0;
+.App-content-box {
+  font-size: calc(10px + 1vmin);
+  flex: 1 0;
 }
 
+.App-footer {
+  background-color: #f7ebff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
