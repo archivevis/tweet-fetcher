@@ -1,5 +1,5 @@
 import './App.css';
-import { Embed } from '../embed/embed';
+import { Embed } from './components/embed/embed';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       </header>
 
       <div className="App-content">
-        <div className="App-content-box"><Embed /></div>
+        <Embed />
       </div>
 
       <footer className="App-footer">

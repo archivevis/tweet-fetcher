@@ -25,7 +25,7 @@ export class Embed extends React.Component<{}, EmbedState> {
 
   render() {
     return (
-      <Tweet tweetId={`${this.state.id}`} options={{ width: "500" }}/>
+      <Tweet tweetId={`${this.state.id}`} options={{ width: "600" }}/>
     );
   }
 
